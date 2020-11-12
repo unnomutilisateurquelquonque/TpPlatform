@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/background/YouWin.jpg" type="Texture" id=1]
+
+[node name="Victory" type="Node2D"]
+z_index = 2
+
+[node name="YouWin" type="Sprite" parent="."]
+position = Vector2( 512, 302.5 )
+scale = Vector2( 1.71053, 1.73977 )
+texture = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 320.0
+margin_top = 448.0
+margin_right = 768.0
+margin_bottom = 462.0
+text = "Appuyer sur L pour recommencer!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
